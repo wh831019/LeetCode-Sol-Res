@@ -21,7 +21,7 @@ class AddTwoNum {
      * Reset sum using sum /= 10
      * Note whether there is carry for last digit
      */
-    public ListNdoe addTwoNumbers(ListNode l1, ListNode l2) {
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode c1 = l1;
         ListNode c2 = l2;
         ListNode pre = new ListNode(0); // set pre head
